@@ -1,0 +1,220 @@
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee, #fda085, #f6d365);
+    background-size: 400% 400%;
+    animation: fondoAnimado 15s ease infinite;
+    color: white;
+    }
+
+    @keyframes fondoAnimado {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+    }
+
+    #seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .titulo { 
+    font-family: 'Press+Start+2P&displayat';
+    font-weight: 200;
+    font-size: 120px;
+    text-align: center;
+    color: #4b3b76;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom:5px ;
+    }
+
+    .subtitulo {
+    font-family:"Caveat", cursive;
+    color: #333333;
+    font-size: 60px;
+    margin-bottom:50px ;
+    
+    }
+
+    .tarjetas, .tarjetas-ataques {
+    display: flex;
+    gap: 10px;
+    }
+
+    .tarjeta-de-mokepon {
+    width: 237px;
+    height: 140px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-family:  "Caveat", cursive ;
+    font-weight: 200;
+    font-size: 40px;
+    color:#333333 ;
+
+    }
+
+    .tarjeta-de-mokepon img {
+    width: 100px;
+    }
+
+    #boton-mascota {
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: #333333;
+    font-family:"Caveat", cursive;
+    margin-top: 30px;
+    font-size: 50px;
+    align-items: center;
+
+    }
+
+    input {
+    display: none;
+    }
+
+    input:checked + label {
+    background-color: #fff0f5;
+    transform: scale(1.02);
+    transition: 0.3s ease;
+    }
+
+    #seleccionar-ataque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .boton-de-ataque {
+    background-color:#f6c8c7;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 280px;
+    height: 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    font-size: 36px ;
+    font-family: "Caveat", cursive ;
+    }
+
+    #mensajes {
+    font-family:"Caveat", cursive ;
+    font-size: 50px;
+    background-color:#f6c8c7;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    #boton-reiniciar {
+    border: none;
+    color: #333333;
+    font-family: "Caveat", cursive;
+    height: 41px;
+    width: 205px;
+    background-color: #ffe3e8;
+    font-size: 30px
+    }
+
+    .ataques {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    color: black;
+    }
+
+    #vidas-jugador, #vidas-enemigo {
+    font-size: 32px;
+    margin-bottom: 0;
+    }
+
+    .ataques-jugador, .ataques-enemigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    }
+
+    @media (max-width: 360px) {
+    .tarjetas, .tarjetas-ataques {
+        flex-direction: column;
+    }
+    }
+
+    #mascota-exlusivamente-kitty {
+        width: 137px; ;
+    }
+
+
+    .titulo2 {
+    font-family: 'Press+Start+2P&displayat';
+    font-weight: 200;
+    font-size: 92px;
+    text-align: center;
+    color: #4b3b76;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+    margin-bottom:5px ;
+    justify-content: flex-start;
+    }
+
+
+    .subtitulo2{
+    font-family:"Caveat", cursive;
+    color: #333333;
+    font-size: 80px;
+    margin-bottom:50px ;
+    
+    }
+
+    .fondo-helloKitty {
+  background: url('./img/Gemini_Generated_Image_grdy4rgrdy4rgrdy.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.fondo-kuromi {
+  background: url('./img/kuromi-de-my-melody-hello-kitty-12441.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.fondo-myMelody {
+  background: url('./img/Gemini_Generated_Image_grdy4rgrdy4rgrdy.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
