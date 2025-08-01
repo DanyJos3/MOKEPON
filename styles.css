@@ -150,7 +150,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+    border: transparent;
+    border-radius: 20px;
+    margin: 10px 25px;
+    width: 80px;
+    font-family:'Press+Start+2P&displayat' ;
+    font-size: 14px;
+    background-color:#f6c8c7;
+    box-sizing: border-box;                      
     }
 
     @media (max-width: 360px) {
@@ -200,8 +207,73 @@
 }
 
 
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 60px;
+  }
 
+  .titulo2 {
+    font-size: 50px;
+  }
 
+  .subtitulo,
+  .subtitulo2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .tarjetas,
+  .tarjetas-ataques {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .tarjeta-de-mokepon {
+    width: 90%;
+    height: auto;
+    font-size: 28px;
+    padding: 20px;
+  }
+
+  .tarjeta-de-mokepon img {
+    width: 80px;
+  }
+
+  #boton-mascota,
+  .boton-de-ataque {
+    width: 90%;
+    font-size: 26px;
+    height: auto;
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  #mensajes {
+    font-size: 30px;
+    width: 90%;
+    padding: 15px;
+  }
+
+  #boton-reiniciar {
+    font-size: 24px;
+    width: 80%;
+  }
+
+  .ataques {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  #vidas-jugador,
+  #vidas-enemigo {
+    font-size: 26px;
+  }
+
+  #mascota-exlusivamente-kitty {
+    width: 100px;
+  }
+}
 
 
 
